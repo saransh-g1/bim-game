@@ -104,7 +104,6 @@ namespace bim::axmol::app
 
     void wire_permanent_connections();
     void connect_keep_alive();
-
     void switch_view(ax::Node& new_view);
 
     void animate_lobby_to_matchmaking();

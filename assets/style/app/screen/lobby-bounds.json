@@ -1,63 +1,105 @@
 {
-    "meta":
-    {
-        "overrides":
-        [
-            "app/screen/part/menu-background-bounds",
-            "app/screen/part/wallet-bounds"
-        ]
-    },
+  "meta": {
+    "overrides": [
+      "app/screen/part/menu-background-bounds",
+      "app/screen/part/wallet-bounds"
+    ]
+  },
 
-    "style":
-    {
-        "stripe-background":
-        [{
-            "anchor.x": 0.5,
-            "anchor.y": 0.5,
-            "anchor.reference.x": 0.5,
-            "anchor.reference.y": 0.85,
-            "width.percents": 100,
-            "height.percents": 6
-        }],
+  "style": {
+    "stripe-background": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.85,
+        "width.percents": 100,
+        "height.percents": 6
+      }
+    ],
 
-        "stripe-message": [ "layout/center" ],
+    "stripe-message": [
+      "layout/center"
+    ],
+    "games_played": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.7,
+        "width.percents": 18,
+        "height.percents": 6
+      }
+    ],
 
-        "settings_button":
-        [{
-            "anchor.x": 0.5,
-            "anchor.y": 0.5,
-            "anchor.reference.x": 0.9,
-            "anchor.reference.y": 0.95,
-            "height.percents": 7,
-            "width-ratio": 1
-        }],
+    "games_wins": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.6,
+        "width.percents": 18,
+        "height.percents": 6
+      }
+    ],
 
-        "play_button":
-        [{
-            "anchor.x": 0.5,
-            "anchor.y": 0.5,
-            "anchor.reference.x": 0.5,
-            "anchor.reference.y": 0.25,
-            "width.percents": 50,
-            "height.percents": 15
-        }],
+    "games_defeat": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.5,
+        "width.percents": 18,
+        "height.percents": 6
+      }
+    ],
 
-        "debug_button":
-        [{
-            "anchor.x": 0.5,
-            "anchor.y": 0.5,
-            "anchor.reference.x": 0.5,
-            "anchor.reference.y": 0.12,
-            "width.percents": 50,
-            "height.percents": 10
-        }],
+    "games_draw": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.4,
+        "width.percents": 18,
+        "height.percents": 6
+      }
+    ],
 
-        "debug_activator":
-        [
-            "layout/fill",
-            {
-                "reference": "debug_button"
-            }
-        ]
-    }
+    "play_button": [
+      {
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.2,
+        "width.percents": 42,
+        "height.percents": 15
+      }
+    ],
+    "settings_button": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.9,
+        "anchor.reference.y": 0.95,
+        "height.percents": 7,
+        "width-ratio": 1
+      }
+    ],
+
+    "debug_button": [
+      {
+        "anchor.x": 0.5,
+        "anchor.y": 0.5,
+        "anchor.reference.x": 0.5,
+        "anchor.reference.y": 0.12,
+        "width.percents": 50,
+        "height.percents": 10
+      }
+    ],
+
+    "debug_activator": [
+      "layout/fill",
+      {
+        "reference": "debug_button"
+      }
+    ]
+  }
 }

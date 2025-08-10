@@ -143,6 +143,7 @@ namespace bim::axmol::app
     void display_flames();
     template <typename T>
     void display_power_ups(const std::vector<ax::Sprite*>& assets);
+
     void display_main_timer();
 
     void display_at(std::size_t arena_y, ax::Node& node,

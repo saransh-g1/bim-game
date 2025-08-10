@@ -353,7 +353,7 @@ launch_build()
 
 launch_tests()
 {
-    local result=0
+     local result=0
 
     "$script_dir"/ci/run-test-programs.sh "$build_dir" \
         || result=$((result + 1))
@@ -375,7 +375,7 @@ launch_tests()
             || result=$((result + 1))
     fi
 
-    return "$result"
+     return "$result"
 }
 
 set_up_host_prefix
